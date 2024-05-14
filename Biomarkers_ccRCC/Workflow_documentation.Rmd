@@ -1,0 +1,22 @@
+---
+title: 'Landstrom Biomarker Project1'
+author: "Alastair Maxwell, Reija Hieta, Tommi Rantapero, Felipe Simao"
+date: "Last updated: `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    theme: cosmo
+    code_folding: hide
+    toc_float: yes
+  html_notebook:
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+    fig_caption: yes
+---
+
+# Introduction
+
+The analysis was mainly done in R and all the complete workflow is described in r/main.r. Python code utilised in the workflow is found under python/
+
